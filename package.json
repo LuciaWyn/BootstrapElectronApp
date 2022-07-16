@@ -1,0 +1,23 @@
+{
+  "name": "BootstrapElectronApp",
+  "version": "1.0.0",
+  "description": "Electron App using Bootstrap.",
+  "main": "main.js",
+  "author": "Lucy Wynne-Jones",
+  "license": "GPU",
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
